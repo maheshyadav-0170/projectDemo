@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar .navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 3vw;
+  transition: transform 0.2s ease-in-out;
+}
+
+.about {
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+#aboutHeading {
+  margin-top: 1%;
+  font-size: x-large;
+}
+
+#aboutTitle {
+  font-size: larger;
+  transition: 0.6s ease-in-out;
+  margin-bottom: 5%;
+}
+
+#aboutTitle:hover {
+  transform: scale(1.1);
+}
+
+.aboutDesc {
+  font-size: small;
+}
+
+#aboutImage1 {
+  aspect-ratio: 1/1;
+  width: 60%;
+  height: 70%;
+  transition: 0.6s ease-in-out;
+  opacity: 0.9;
+  margin-top: 3%;
+}
+
+#aboutImage1:hover {
+  transform: scale(1.01);
+  opacity: 1;
+}
+
+.aboutDesign1 {
+  width:100%;
+  height: 1%;
+  border-radius: 40%;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.aboutDesign2 {
+  width:100%;
+  height: 1%;
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.offers {
+  background-color: #eaf6f6;
+  padding-top: 2%;
+  width: 100%;
+  padding-bottom: 3%;
+  margin-bottom: 3%;
+}
+
+#offerHeading {
+  margin-top: 1%;
+  font-size: x-large;
+}
+
+.card {
+  height: min-content;
+  width: 85%;
+  padding: 3%;
+  transition: 0.6s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.card:hover {
+  transform: scale(1.06);
+}
+
+.card {
+  padding: 2%;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.footerSection {
+  background-color: #1b2430;
+  color: white;
+  padding-left: 5%;
+  padding: 3%;
+  padding-bottom: 1%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footerHeading {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+ul {
+  margin-left: 15%;
+}
+
+/*----------------------------------------*/
+
+
+#aboutImage2 {
+  aspect-ratio: 1/1;
+  width: 60%;
+  height: 70%;
+  transition: 0.6s ease-in-out;
+  opacity: 0.9;
+  margin-top: 1%;
+}
+
+#aboutImage2:hover {
+  transform: scale(1.01);
+  opacity: 1;
+}
+
+.facilities {
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+#facilityImg1 {
+  width: 40%;
+  height: 50%;
+}
+
+.facilityDesc {
+  font-size: medium;
+  margin-top: 5%;
+}
+
+#aboutHeadText {
+  color: black;
+  font-size: 300%;
+  transition: 0.5s ease-in-out;
+  width: 90%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#aboutTitleText {
+  font-size: larger;
+  transition: 0.6s ease-in-out;
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#aboutTitleText:hover {
+  transform: scale(1.1);
+}
+
+.reviews {
+  background: linear-gradient(
+      rgba(247, 243, 243, 0.7),
+      rgba(237, 246, 248, 0.3)
+    ),
+    url(../assets/Galaxy.png);
+  padding-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+#reviewerImage {
+  width: 5%;
+  height: 4%;
+  border-radius: 50%;
+}
+
+.reviewDiv {
+  border: 1px solid white;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 3%;
+  padding-bottom: 3%;
+}
+
+.stars {
+  width: 5%;
+  height: 5%;
+}
+
+/*------------------------------------------*/
+
+#offerBgImage {
+  background: url(../assets/offerImage1.jpg);
+  width: 100%;
+  height: 70%;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 15%;
+  color: #1b2430;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#offerHeadText {
+  color: black;
+  font-size: xx-large;
+  transition: 0.5s ease-in-out;
+  width: 90%;
+  transition: 0.6s ease-in-out;
+  margin-left: 7%;
+}
+
+#offerHeadText:hover {
+  transform: scale(1.1);
+}
+
+#offerTitleText {
+  font-size: larger;
+  transition: 0.6s ease-in-out;
+  margin-bottom: 5%;
+  color: black;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#offerTitleText:hover {
+  transform: scale(1.1);
+}
+
+/*---------------------------------*/
+
+#bookBgImage {
+  background: url(../assets/bookBgImage.jpg);
+  width: 100%;
+  height: 70%;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 15%;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#bookHeadText {
+  color: black;
+  font-size: xx-large;
+  transition: 0.5s ease-in-out;
+  width: 90%;
+  transition: 0.6s ease-in-out;
+  margin-left: 7%;
+}
+
+#bookHeadText:hover {
+  transform: scale(1.1);
+}
+
+#bookTitleText {
+  font-size: larger;
+  transition: 0.6s ease-in-out;
+  color: black;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#bookTitleText:hover {
+  transform: scale(1.1);
+}
+
+/*------------------------------------*/
+
+#bookings {
+  background: #f7f7f7;
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-control {
+  margin-top: 5%;
+}
+
+#preloader {
+  background: white url(../assets/preloader-unscreen.gif) no-repeat center;
+  background-size: 20%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.lineHr {
+  width: 100%;
+  height: 2%;
+  background-color: #fbab7e;
+  background-image: linear-gradient(90deg, #fbab7e 0%, #f7ce68 100%);
+}
+
+/*----------------------------------*/
+
+.signup {
+  height: auto;
+}
+
+#signupHeading {
+  margin-bottom: 0%;
+  margin-top: 1%;
+  font-size: xx-large;
+}
+
+/*---------------------*/
+
+#adminLogin {
+  background: linear-gradient(
+      rgba(247, 243, 243, 0.7),
+      rgba(237, 246, 248, 0.3)
+    ),
+    url(../assets/aboutImage.jpg);
+  width: 100%;
+  height: 50%;
+  padding-bottom: 10%;
+  padding-top: 2%;
+  color: #1b2430;
+}
+
+#loginHeadText {
+  color: white;
+  font-size: xx-large;
+  transition: 0.5s ease-in-out;
+  width: 90%;
+  transition: 0.6s ease-in-out;
+  margin-left: 7%;
+}
+
+#loginHeadText:hover {
+  transform: scale(1.1);
+}
+#loginTitleText {
+  font-size: larger;
+  transition: 0.6s ease-in-out;
+  color: white;
+  margin-left: 7%;
+  width: 80%;
+  margin-right: 7%;
+}
+#loginTitleText:hover {
+  transform: scale(1.1);
+}
+#table {
+  margin-top: 5%;
+  font-size: medium;
+  margin: auto;
+  margin-top: 5%;
+  width: 95%;
+  padding: 2%;
+}
+
+#HomebgImage {
+  background: black;
+  width: 90%;
+  height: 50%;
+  padding-bottom: 10%;
+  padding-top: 2%;
+  color: #1b2430;
+}

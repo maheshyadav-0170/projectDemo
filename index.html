@@ -1,0 +1,129 @@
+<?php 
+require('config.php');
+session_start();  
+if(!isset($_SESSION["user"]))
+{
+ header("location:login.php");
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice 2</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+
+        <div class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" style="margin-left:2%" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-items">
+                        <a href="index.html" class="nav-link px-4">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#about" class="nav-link px-4">About</a>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#contact" class="nav-link px-4">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="row gx-0">
+            <div class="col col-md-12 col-sm-12 pt-1">
+                <h1 class="text-center fw-bolder m-auto mt-5" id="aboutHeadText">
+                    Mahesh Yadav
+                </h1>
+                <br>
+                <p class="text-center fw-bolder" id="aboutTitleText">
+                    An Aspiring Software Engineer
+                </p>
+            </div>
+        </div>
+
+        <div class="container text-center about" id="about">
+            <div class="row gx-0">
+                <div class="col-md-7 col-sm-12">
+                    <div class="aboutDesign1"></div>
+                    <p class="py-1" id="aboutHeading">About me</p>
+                    <p class="aboutDesc">
+                        A dedicated & reliable individual, currently persuing B.E. at DSATM, Bengaluru.
+                    </p>
+                    <p class="aboutDesc">
+                        An enthusiast software development & a full stack web developer.
+                        Looking after to start my career in a firm driven with technology.
+                    </p>
+                    <p class="aboutDesc">
+                        Scroll down to know more above my skills..!
+                    </p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="assets/Image1.jpeg" id="aboutImage2" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="container facilities text-center">
+            <p class=" fw-bolder" id="offerHeading">My skills</p>
+            <br />
+            <div class="row gx-0">
+                <div class="col-md-3 col-sm-6 ">
+                    <img src="assets/java.png" alt="" id="facilityImg1" />
+                    <p class="facilityDesc">Java</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                <img src="assets/c-logo.png" alt="" id="facilityImg1" />
+                    <p class="facilityDesc">C++</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="assets/c-programming.png" alt="" id="facilityImg1" />
+                    <p class="facilityDesc">C Programming</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img src="assets/course_thumbnail_155.jpg" alt="" id="facilityImg1" />
+                    <p class="facilityDesc">Data Structure and Algorithms</p>
+                </div>
+            <div class="row gx-0">
+                <div class="col-md-12 col-sm-12">
+                    <img src="assets/web-development-programming-4315061-3610795.webp" alt="" id="facilityImg1" />
+                    <p class="facilityDesc">Full Stack Web Development</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="text-center" id="contact">
+            <h3 class=" fw-bolder" id="">Contact me</h3>
+            <br>
+            <a href="www.linkedin.com/in/maheshyadav0170" style="color: black;">Linkedin</a>
+            <br><br>
+            <a href="https://github.com/maheshyadav-0170" style="color: black;">Github</a>
+            <br><br>
+            <a href="maheshyadav0170@gmail.com" style="color: black;">Gmail</a>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
